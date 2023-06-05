@@ -1,0 +1,384 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path" : "pages/knowledge/knowledge",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "食谱生成器",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+	    ,{
+            "path" : "pages/cooking/cooking",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "御膳房",
+                "enablePullDownRefresh": false,
+				"app-plus": {
+					"scrollIndicator": "none"
+					// "titleNView": {
+					// 	"buttons": [
+					// 		{
+					// 			"float": "right",
+					// 			"fontSrc": "./static/iconfont.ttf",
+					// 			"text": "\ue617"
+					// 		}
+					// 	]
+					// }
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/home/home",
+            "style": {
+            	"app-plus": {
+            		"titleNView":false,
+					"scrollIndicator": "none"
+            	}
+            }
+            
+        }
+		,{
+		    "path" : "pages/knowledge/order",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/knowledge/vegetables",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "菜谱",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/knowledge/vegetables/Broccoli",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "菜谱",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/knowledge/vegetables/cabbage",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "菜谱",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/knowledge/vegetables/carrot",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "菜谱",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/knowledge/vegetables/egg",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "菜谱",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/knowledge/vegetables/meat",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "菜谱",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/knowledge/vegetables/mushroom",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "菜谱",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/knowledge/vegetables/scallion",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "菜谱",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/knowledge/vegetables/shrimp",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "菜谱",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/knowledge/vegetables/tomato",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "菜谱",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		
+		
+		
+		
+		,{
+		    "path" : "pages/knowledge/search",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "搜索",
+		        "enablePullDownRefresh": false,
+		        "app-plus": {
+		        	"scrollIndicator": "none",
+		        	"titleNView": {
+		        		"searchInput": {
+		        			"placeholder": "搜索食材",
+		        			"disabled": false,
+		        			"borderRadius": "15px",
+		        			"backgroundColor": "#fff",
+		        			"placeholderColor": "#888888"
+		        		},
+		        		"buttons": [
+		        			{
+		        				"float": "right",
+		        				"color": "#5f5f5f",
+		        				"text": "搜索",
+		        				"fontSize": "16px",
+		        				"width":"60px"
+		        			}
+		        		]
+		        	}
+		        }
+		    }
+		}
+		,{
+		    "path" : "pages/cooking/MessagePage/MessagePage",
+		    "style" :
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false
+		    }
+		}
+		,{
+		    "path" : "pages/login/login",
+		    "style": {
+		    	"app-plus": {
+		    		"titleNView":false,
+					"scrollIndicator": "none"
+		    	}
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/home/friend/friend",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "好友"
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/home/history/history",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "历史"
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/home/cook/cook",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "菜谱"
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/home/config/config",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "设置"
+            }
+            
+        }
+		,{
+		    "path" : "pages/home/config/account/account",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "账号与安全"
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/home/config/path-list/path-list",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "地址管理"
+            }
+            
+        }
+		,{
+		    "path" : "pages/home/config/path-list/add-path/add-path",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "新增地址",
+				"app-plus": {
+					"scrollIndicator": "none",
+					"titleNView": {
+						"buttons": [
+							{
+								"float": "right",
+								"color": "#5f5f5f",
+								"text": "保存",
+								"fontSize": "16px",
+								"width":"60px"
+							}
+						]
+					}
+				}
+		    }
+		}
+        ,{
+            "path" : "pages/login/login-tel/login-tel",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "手机号登录",
+                "navigationBarBackgroundColor": "#fff"
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/login-tel/login-code/login-code",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "验证码",
+                "navigationBarBackgroundColor": "#fff"
+            }
+            
+        }
+		,{
+		    "path" : "pages/home/config/message/message",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "消息通知"
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/home/config/current/current",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "通知"
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/home/config/privacy/privacy",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "隐私设置"
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/home/config/help/help",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "帮助与反馈"
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/home/myCollect/myCollect",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的收藏",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		,{
+		    "path" : "pages/home/myOrder/myOrder",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "我的订单",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/home/myScores/myScores",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "我的积分",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/home/connection/connection",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "关于我们",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "简香肴",
+		"navigationBarBackgroundColor": "#f9f9f9",
+		"backgroundColor": "#f9f9f9"
+	},
+	"tabBar": {
+		"color": "#b0bec5",
+		"selectedColor": "#000",
+		"backgroundColor": "#f9f9f9",
+		"spacing": "8px",
+		// "fontSize": "10px",
+		"list": [
+			{
+				"text": "食谱生成器",
+				"pagePath": "pages/knowledge/knowledge",
+				"iconPath": "static/tabbar_icon/book.png",
+				"selectedIconPath": "static/tabbar_icon/book_c.png"
+			},
+			{
+				"text": "御膳房",
+				"pagePath": "pages/cooking/cooking",
+				"iconPath": "static/tabbar_icon/home.png",
+				"selectedIconPath": "static/tabbar_icon/home_c.png"
+			},
+			{
+				"text": "个人中心",
+				"pagePath": "pages/home/home",
+				"iconPath": "static/tabbar_icon/personal.png",
+				"selectedIconPath": "static/tabbar_icon/personal_c.png"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}
